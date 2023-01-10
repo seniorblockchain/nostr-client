@@ -132,11 +132,11 @@ export class NotesListComponent implements OnInit, OnDestroy
                 // count.
                 if ( matchingAliases.includes('xl') )
                 {
-                    this.masonryColumns = 1;
+                    this.masonryColumns = 2;
                 }
                 else if ( matchingAliases.includes('lg') )
                 {
-                    this.masonryColumns = 1;
+                    this.masonryColumns = 2;
                 }
                 else if ( matchingAliases.includes('md') )
                 {
