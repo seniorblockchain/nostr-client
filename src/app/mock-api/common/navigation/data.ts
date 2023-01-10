@@ -46,7 +46,15 @@ export const defaultNavigation: NostrNavigationItem[] = [
                     title: '27',
                     classes: 'px-2 bg-pink-600 text-white rounded-full'
                 }
+            },
+            {
+                id: 'profile',
+                title: 'Profile',
+                type: 'basic',
+                icon: 'heroicons_outline:user-circle',
+                link: '/pages/profile'
             }
+
         ]
     }
 ];
