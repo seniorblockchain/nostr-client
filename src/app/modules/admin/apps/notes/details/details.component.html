@@ -73,7 +73,7 @@
             <ng-container *ngIf="note.labels && note.labels.length">
                 <div class="flex flex-wrap items-center mx-1 mt-6">
                     <ng-container *ngFor="let label of note.labels; trackBy: trackByFn">
-                        <div class="flex items-center m-1 py-0.5 px-3 rounded-full text-sm font-medium text-gray-500 bg-gray-100 dark:text-gray-300 dark:bg-gray-700">
+                        <div class="flex items-center m-1 py-0.5 px-3 rounded text-sm font-medium text-gray-500 bg-gray-100 dark:text-gray-300 dark:bg-gray-700">
                             <div>
                                 {{label.title}}
                             </div>

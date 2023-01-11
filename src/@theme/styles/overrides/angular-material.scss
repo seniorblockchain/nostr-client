@@ -26,7 +26,7 @@
 
     .mat-expansion-panel {
         margin-bottom: 24px;
-        border-radius: 8px !important;
+        border-radius: 5px !important;
         transition: box-shadow 225ms cubic-bezier(0.4, 0.0, 0.2, 1);
         @apply shadow #{'!important'};
 
@@ -132,19 +132,19 @@
 /* FAB buttons */
 .mat-mdc-fab {
     max-height: 56px;
-    border-radius: 16px !important;
+    border-radius: 5px !important;
 
     &:not(.mdc-fab--extended) .mdc-fab__ripple {
-        border-radius: 16px !important;
+        border-radius: 5px !important;
     }
 }
 
 /* Mini FAB buttons */
 .mat-mdc-mini-fab {
-    border-radius: 12px !important;
+    border-radius: 5px !important;
 
     &:not(.mdc-fab--extended) .mdc-fab__ripple {
-        border-radius: 12px !important;
+        border-radius: 5px !important;
     }
 }
 
@@ -154,7 +154,7 @@
 .mat-mdc-outlined-button,
 .mat-mdc-unelevated-button {
     padding: 0 20px !important;
-    border-radius: 9999px !important;
+    border-radius: 5px !important;
 }
 
 
@@ -284,7 +284,7 @@
     }
 
     .mat-button-toggle {
-        border-radius: 9999px;
+        border-radius: 5px;
         overflow: hidden;
         border: none !important;
         font-weight: 500;
@@ -332,7 +332,7 @@
 .mat-mdc-dialog-container {
 
     .mdc-dialog__surface {
-        border-radius: 16px !important;
+        border-radius: 5px !important;
         padding: 24px;
     }
 }
@@ -429,7 +429,7 @@
     /* Default style tweaks and enhancements */
     .mat-mdc-text-field-wrapper {
         padding: 0;
-        border-radius: 6px;
+        border-radius: 5px;
         border-width: 1px;
         border-style: solid;
         @apply shadow-sm bg-white border-gray-300 dark:bg-black dark:bg-opacity-5 dark:border-gray-500 #{'!important'};
@@ -441,7 +441,7 @@
         }
 
         .mat-mdc-form-field-focus-overlay {
-            border-radius: 6px;
+            border-radius: 5px;
         }
 
         /* Form field */
@@ -449,7 +449,7 @@
             position: relative;
             display: flex;
             align-items: stretch;
-            border-radius: 6px;
+            border-radius: 5px;
             padding: 0 16px;
 
             .mat-mdc-form-field-icon-prefix,
@@ -654,7 +654,7 @@
     &.nostr-mat-rounded {
 
         .mat-mdc-text-field-wrapper {
-            border-radius: 24px;
+            border-radius: 5px;
         }
 
         /* Emphasized affix */
@@ -666,7 +666,7 @@
 
                     .mat-mdc-form-field-icon-prefix,
                     .mat-mdc-form-field-text-prefix {
-                        border-radius: 24px 0 0 24px;
+                        border-radius: 5px 0 0 5px;
 
                         > .mat-icon {
                             margin-right: 12px;
@@ -691,7 +691,7 @@
 
                     .mat-mdc-form-field-icon-suffix,
                     .mat-mdc-form-field-text-suffix {
-                        border-radius: 0 24px 24px 0;
+                        border-radius: 0 5px 5px 0;
 
                         > .mat-icon {
                             margin-left: 12px !important;
@@ -788,7 +788,7 @@
         &.nostr-mat-rounded {
 
             .mat-mdc-text-field-wrapper {
-                border-radius: 20px;
+                border-radius: 5px;
             }
 
             /* Emphasized affix */
@@ -800,12 +800,12 @@
 
                         .mat-mdc-form-field-icon-prefix,
                         .mat-mdc-form-field-text-prefix {
-                            border-radius: 20px 0 0 20px !important;
+                            border-radius: 5px 0 0 5px !important;
                         }
 
                         .mat-mdc-form-field-icon-suffix,
                         .mat-mdc-form-field-text-suffix {
-                            border-radius: 0 20px 20px 0 !important;
+                            border-radius: 0 5px 5px 0 !important;
                         }
                     }
                 }
@@ -825,7 +825,7 @@
                     align-self: stretch !important;
                     margin: 0 16px 0 -16px !important;
                     padding-left: 16px !important;
-                    border-radius: 6px 0 0 6px;
+                    border-radius: 5px 0 0 5px;
                     border-right-width: 1px;
                     border-style: solid;
 
@@ -855,7 +855,7 @@
                     align-self: stretch !important;
                     margin: 0 -16px 0 16px !important;
                     padding-right: 16px !important;
-                    border-radius: 0 6px 6px 0;
+                    border-radius: 0 5px 5px 0;
                     border-left-width: 1px;
                     border-style: solid;
 
